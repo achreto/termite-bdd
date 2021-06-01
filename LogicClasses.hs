@@ -20,7 +20,7 @@ module LogicClasses (
     VarDecl(..)
     ) where
 
-import Control.Monad.Error
+import Control.Monad.Except
 import Data.List
 import Data.Bits 
 
